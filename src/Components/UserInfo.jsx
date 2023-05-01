@@ -40,7 +40,7 @@ export default function UserInfo(){
     return(
         <div>
             <form onSubmit={userSubmit}>
-                <input type="text" placeholder="Type username..." onChange={userChange}/>
+                <input type="text" placeholder="Type Github username..." onChange={userChange}/>
                 <button onClick={userSubmit}>Search</button>
             </form>
             {
